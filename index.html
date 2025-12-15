@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мое Портфолио</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Навигация -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">Мое Портфолио</div>
+            <ul class="nav-links">
+                <li><a href="#hero">Главная</a></li>
+                <li><a href="#about">Обо мне</a></li>
+                <li><a href="#projects">Проекты</a></li>
+                <li><a href="#contact">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero-блок -->
+    <section id="hero" class="hero-section">
+        <div class="hero-content">
+            <h1>Привет! Я веб-разработчик</h1>
+            <p>Создаю яркие и современные сайты с плавной анимацией</p>
+            <a href="#projects" class="btn">Мои проекты</a>
+        </div>
+        <!-- Изображение героя (можно заменить на свое) -->
+        <img src="https://i.postimg.cc/fTVXWMYM/Rocket-Boss.png" alt="Hero Image" class="hero-img">
+    </section>
+
+    <!-- Блок о моем опыте и навыках -->
+    <section id="about" class="about-section">
+    <h2>Обо мне</h2>
+    <p>Я занимаюсь веб-разработкой более 3 лет, создаю адаптивные, красивые и интерактивные сайты.</p>
+
+    <h3>Мои навыки</h3>
+
+    <div class="skills-grid">
+        <!-- Можно заменить любые картинки на свои -->
+        <div class="skill-card">
+    <p class="skill-emoji">🟧</p>
+    <p>HTML</p>
+</div>
+
+<div class="skill-card">
+    <p class="skill-emoji">🎨</p>
+    <p>CSS</p>
+</div>
+
+<div class="skill-card">
+    <p class="skill-emoji">⚡</p>
+    <p>JavaScript</p>
+</div>
+
+<div class="skill-card">
+    <p class="skill-emoji">⚛️</p>
+    <p>React</p>
+</div>
+
+<div class="skill-card">
+    <p class="skill-emoji">🌿</p>
+    <p>Node.js</p>
+</div>
+
+<div class="skill-card">
+    <p class="skill-emoji">🖌️</p>
+    <p>Figma</p>
+</div>
+</div>
+</section>
+
+
+    <!-- Раздел с проектами -->
+    <section id="projects" class="projects-section">
+        <h2>Мои проекты</h2>
+        <div class="projects-grid">
+            <!-- Проект Комикс -->
+            <div class="project-card">
+                <img src="https://i.postimg.cc/fbq4w1cH/3-(5).png" alt="Комикс проект">
+                <h3>Комикс</h3>
+                <p>Интерактивный комикс с анимацией.</p>
+            </div>
+            <!-- Проект Видео -->
+            <div class="project-card">
+                <img src="https://i.postimg.cc/kMcQB9VH/Chat_GPT_Image_Oct_10_2025_01_25_49_PM_1_(1)_1.png" alt="Видео проект">
+                <h3>Видео</h3>
+                <p>Проект с видеоконтентом и эффектами.</p>
+            </div>
+            <!-- Проект JS-игра -->
+            <div class="project-card">
+                <img src="https://i.postimg.cc/02zzPq7Z/Screenshot-2025-12-11-at-10-23-34.png" alt="JS игра проект">
+                <h3>JS-игра</h3>
+                <p>Игра, созданная с помощью JavaScript.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Блок с контактами -->
+    <section id="contact" class="contact-section">
+        <h2>Связаться со мной</h2>
+        <form>
+            <input type="text" placeholder="Ваше имя" required>
+            <input type="email" placeholder="Ваш email" required>
+            <textarea placeholder="Сообщение" required></textarea>
+            <button type="submit">Отправить</button>
+        </form>
+    </section>
+
+    <!-- Футер -->
+    <footer>
+        <p>&copy; 2025 Юлия. Все права защищены.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
